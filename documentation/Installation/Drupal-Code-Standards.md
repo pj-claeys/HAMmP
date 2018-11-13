@@ -71,7 +71,7 @@ alias to use this tool with the Drupal standards:
 cat >> ~/.bash_profile <<EOF
 
 # Drupal code Beautifier and Fixer ----------------------------------
-alias phpcsd="phpcs --standard=Drupal -p --colors --ignore=*.features.*,*.field_group.inc,*.strongarm.inc,*.ds.inc,*.context.inc,*.views_default.inc,*.file_default_displays.inc,*.facetapi_defaults.inc,dist,node_modules,bower_components --extensions=php,module,inc,install,test,profile,theme,js,css,info,txt"
+alias phpcbfd="phpcbf --standard=Drupal -p --colors --ignore=*.features.*,*.field_group.inc,*.strongarm.inc,*.ds.inc,*.context.inc,*.views_default.inc,*.file_default_displays.inc,*.facetapi_defaults.inc,dist,node_modules,bower_components --extensions=php,module,inc,install,test,profile,theme,js,css,info,txt"
 
 EOF
 ```
